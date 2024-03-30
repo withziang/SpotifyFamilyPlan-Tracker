@@ -135,12 +135,22 @@ function PaymentTracker() {
               min-height: 40px;
               min-width: 40px;
         }
+        .remain{
+          display:flex;
+          align-items: center; /* Vertically center items */
+          justify-content: center; /* Horizontally center items */
+          padding-left: 30px;
+          padding-left: 30px;
+        }
+        .name{
+            width:40px;
+        }
       </style>
       </head>
       <body>
       <!-- Star background -->
       <div class="stars">
-          <div class="star" style="--top-offset: 10; --left-offset: 20; transform: rotate(-45deg);;"></div>
+          <div class="star" style="--top-offset: 10; --left-offset: 20; transform: rotate(-45deg);"></div>
           <div class="star" style="--top-offset: 12; --left-offset: 70;transform: rotate(-45deg);"></div>
           <div class="star" style="--top-offset: 34; --left-offset: 64;transform: rotate(-45deg);"></div>
           <div class="star" style="--top-offset: 66; --left-offset: 90;transform: rotate(-45deg);"></div>
@@ -157,23 +167,38 @@ function PaymentTracker() {
           <div class="people">
               <div class="person person1">
                   <div class="avatar"> J</div>
-                  Jason
+                  <div class="name"> Jason </div>
+                  <div class="remain">
+                  <div> 0 month left</div>
+                  </div>
               </div>
               <div class="person person2">
                   <div class="avatar"> Y</div>
-                  Youdas
+                  <div class="name"> Youdas </div>
+                  <div class="remain">
+                  <div>  0 month left</div>
+                  </div>
               </div>
               <div class="person person3">
                   <div class="avatar"> E</div>
-                  Emily
+                  <div class="name"> Emily</div>
+                  <div class="remain">
+                  <div>  0 month left</div>
+                  </div>
               </div>
               <div class="person person4">
                   <div class="avatar"> T</div>
-                  Tiff
+                  <div class="name">  Tiff</div>
+                  <div class="remain">
+                  <div>  0 month left</div>
+                  </div>
               </div>
               <div class="person person5">
                   <div class="avatar"> I</div>
-                  Issac
+                  <div class="name">  Issac </div>
+                  <div class="remain">
+                  <div>  0 month left</div>
+                  </div>
               </div>
           </div>
       </div>
@@ -186,7 +211,7 @@ function PaymentTracker() {
       </div>
       </body>
       </html>
-      
+    
 
       `;
 
